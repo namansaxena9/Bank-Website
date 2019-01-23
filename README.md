@@ -1,0 +1,2 @@
+# Bank-Website
+It is a simulation of a how a bank website works with more emphasis given to the back-end of the website rather than front-end.It provides the user with  a separate interface beside the main website to mimic the functionalities of a bank branch as well as an ATM.It allows the user to create fill application for bank account.Once the application is submitted a unique temporary number is given to the applicant to check the status of their application.The bank personnel would use the staff login to verify the applicant and approve or disapprove his application.
