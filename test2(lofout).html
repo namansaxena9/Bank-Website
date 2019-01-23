@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="files/css/bootstrap.min.css">
+  <script src="files/js/jquery.min.js"></script>
+  <script src="files/js/bootstrap.min.js"></script>
+    
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="stylesheet" type="text/css" href="files/css/reset.css">
+<link href="files/css/font-awesome.min.css" rel="stylesheet">
+<link href="files/css/bootstrap.css" rel="stylesheet" />
+<link rel="stylesheet" href="files/animate/animate.css" />
+<link rel="stylesheet" href="files/animate/set.css" />
+<link href='files/fonts/sans.css' rel='stylesheet' type='text/css'>     
+</head>
+<body>
+
+<div class="container">
+  <h3>Popover Options</h3>
+  <p>The <strong>placement</strong> option specifies the popover position.</p>
+  <div>
+    <button class="btn btn-warning btn-md">TopA</button>
+    <button class="btn btn-success btn-md">Bottom</button>
+    <button class="btn btn-danger btn-md">Left</button>
+    <button class="btn btn-default btn-md">Right</button>
+  </div>
+</div>
+
+<script>
+$(document).ready(function(){
+  
+    $('.btn-success').popover({title: "Header", content: "Blabla", placement: "bottom"}); 
+ 
+});
+</script>
+
+</body>
+</html>
